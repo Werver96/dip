@@ -107,7 +107,7 @@ border-radius: 25px;
 .lanch_container {
 width: 100%;
 background: url(..//image/content_maim/lanch.png) center center no-repeat,
-url(..//image/content_maim/marble_bg.jpg) left top no-repeat;
+url(..//image/content_maim/marble_bg.jpg) center top;
 position: relative;
 height: 753px;
 }
