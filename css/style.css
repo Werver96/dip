@@ -230,6 +230,11 @@ url(../image/content_maim/hello_bg2.svg) no-repeat 104% 104% /100px,
 url(../image/content_maim/hello_bg3.svg) no-repeat 2% 1% /100px,
 url(../image/content_maim/hello_bg4.svg) no-repeat 110% 1% /95px;
 }
+.lanch_container {
+
+background: url(..//image/content_maim/lanch.png) center top -10px/90vw no-repeat,
+url(..//image/content_maim/marble_bg.jpg) center top;
+}
 .container {
 max-width: none;
 }
@@ -288,7 +293,13 @@ url(../image/content_maim/hello_bg3.svg) no-repeat -2% 110% /74px,
 url(../image/content_maim/hello_bg4.svg) no-repeat 108% 101% /76px;
 }
 .lanch_contant_button{
-bottom: 48%;
+bottom: 17%;
+}
+.lanch_container {
 
+background: url(..//image/content_maim/lanch.png) center top -10px/90vw no-repeat,
+url(..//image/content_maim/marble_bg.jpg) center top;
+position: relative;
+height: 70vw;
 }
 }
