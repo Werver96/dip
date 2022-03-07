@@ -149,7 +149,7 @@ margin: 30px 0 60px 0;
 .about_cotnent_button{}
 .about_cotnent_button a{
 display: inline-block;
-padding: 20px 40px;
+padding: 20px 35px;
 border: 2px solid red;
 border-radius: 25px;
 }
@@ -162,6 +162,9 @@ background: #f7fdec;
 
 }
 .gallery_content {}
+.gallery_content_elem_wrapper{
+padding: 5px;
+}
 .gallery_content_elem {
 float: left;
 width: 33.33333%;
@@ -233,14 +236,14 @@ background:url(../image/content_maim/hello_bg1.svg) no-repeat -9% 106% /100px,
 url(../image/content_maim/hello_bg2.svg) no-repeat 105% 105% /100px,
 url(../image/content_maim/hello_bg3.svg) no-repeat -6% -3% /100px,
 url(../image/content_maim/hello_bg4.svg) no-repeat 102% -12% /95px;
-padding: 50px;
+
 }
 .about_container {
 background:url(../image/content_maim/hello_bg1.svg) no-repeat -16% 83% /100px,
-url(../image/content_maim/hello_bg2.svg) no-repeat 98% 104% /100px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 104% 104% /100px,
 url(../image/content_maim/hello_bg3.svg) no-repeat 2% 1% /100px,
 url(../image/content_maim/hello_bg4.svg) no-repeat 110% 1% /95px;
-padding: 50px;
+
 }
 .container {
 max-width: none;
@@ -250,13 +253,13 @@ max-width: none;
 display: none;
 }
 .hello {
-border-top: 5px solid #000;
+border-top: 3px solid #000;
 }
 .header_contant_city {
 display: none;
 }
 .about {
-border-top: 5px solid #000;
+border-top: 3px solid #000;
 }
 .text {
 font-size: 1.5em;
@@ -274,5 +277,30 @@ background: #d6e1b9;
 }
 .gallery_content div:nth-child(9){
 display: block;
+}
+}
+@media(max-width: 320px){
+.about_cotnent_tittle, .about_cotnent_text{
+display: none;
+}
+.hello_cotnent_text{
+margin: 10px 0;
+}
+.hello_container{
+padding-top: 30px;
+}
+.hello_container {
+background:url(../image/content_maim/hello_bg1.svg) no-repeat -9% 106% /88px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 105% 105% /83px,
+url(../image/content_maim/hello_bg3.svg) no-repeat -6% -3% /106px,
+url(../image/content_maim/hello_bg4.svg) no-repeat 96% 1% /79px;
+
+}
+.about_container {
+background:url(../image/content_maim/hello_bg1.svg) no-repeat -9% -54% /88px,
+url(../image/content_maim/hello_bg2.svg) no-repeat 105% -48% /83px,
+url(../image/content_maim/hello_bg3.svg) no-repeat -2% 110% /74px,
+url(../image/content_maim/hello_bg4.svg) no-repeat 108% 101% /76px;
+
 }
 }
