@@ -233,7 +233,7 @@ url(../image/content_maim/hello_bg4.svg) no-repeat 110% 1% /95px;
 .container {
 max-width: none;
 }
-.slider_container, .lanch {
+.slider_container {
 display: none;
 }
 .hello {
@@ -242,8 +242,10 @@ border-top: 3px solid #000;
 .header_contant_city {
 display: none;
 }
-.about {
-border-top: 3px solid #000;
+.about {}
+.lanch_contant_button{
+bottom: 40px;
+font-weight: bold;
 }
 .text {
 font-size: 1.5em;
@@ -284,5 +286,9 @@ background:url(../image/content_maim/hello_bg1.svg) no-repeat -9% -54% /88px,
 url(../image/content_maim/hello_bg2.svg) no-repeat 105% -48% /83px,
 url(../image/content_maim/hello_bg3.svg) no-repeat -2% 110% /74px,
 url(../image/content_maim/hello_bg4.svg) no-repeat 108% 101% /76px;
+}
+.lanch_contant_button{
+bottom: 48%;
+
 }
 }
